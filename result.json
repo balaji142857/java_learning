@@ -1,0 +1,148 @@
+{
+	"id": 1,
+	"quizStartTime": {
+		"nano": 447000000,
+		"dayOfMonth": 5,
+		"dayOfWeek": "FRIDAY",
+		"dayOfYear": 125,
+		"hour": 15,
+		"minute": 46,
+		"month": "MAY",
+		"monthValue": 5,
+		"second": 37,
+		"year": 2017,
+		"chronology": {
+			"id": "ISO",
+			"calendarType": "iso8601"
+		}
+	},
+	"quizDuration": {
+		"seconds": 1380,
+		"nano": 0,
+		"units": [
+			"SECONDS",
+			"NANOS"
+		],
+		"negative": false,
+		"zero": false
+	},
+	"difficulty": "EASY",
+	"questions": [
+		{
+			"id": 2,
+			"answers": [
+				{
+					"id": 0,
+					"content": "This is answer 0"
+				},
+				{
+					"id": 0,
+					"content": "This is answer 1"
+				},
+				{
+					"id": 0,
+					"content": "This is answer 2"
+				},
+				{
+					"id": 0,
+					"content": "This is answer 3"
+				}
+			],
+			"content": "This is question 2",
+			"correctAnswers": [
+				{
+					"id": 0,
+					"content": "This is answer 0"
+				}
+			],
+			"multiChoice": true
+		},
+		{
+			"id": 0,
+			"answers": [
+				{
+					"id": 0,
+					"content": "This is answer 0"
+				},
+				{
+					"id": 0,
+					"content": "This is answer 1"
+				},
+				{
+					"id": 0,
+					"content": "This is answer 2"
+				},
+				{
+					"id": 0,
+					"content": "This is answer 3"
+				}
+			],
+			"content": "This is question 0",
+			"correctAnswers": [
+				{
+					"id": 0,
+					"content": "This is answer 0"
+				}
+			],
+			"multiChoice": true
+		},
+		{
+			"id": 1,
+			"answers": [
+				{
+					"id": 0,
+					"content": "This is answer 0"
+				},
+				{
+					"id": 0,
+					"content": "This is answer 1"
+				},
+				{
+					"id": 0,
+					"content": "This is answer 2"
+				},
+				{
+					"id": 0,
+					"content": "This is answer 3"
+				}
+			],
+			"content": "This is question 1",
+			"correctAnswers": [
+				{
+					"id": 0,
+					"content": "This is answer 0"
+				}
+			],
+			"multiChoice": true
+		},
+		{
+			"id": 3,
+			"answers": [
+				{
+					"id": 0,
+					"content": "This is answer 0"
+				},
+				{
+					"id": 0,
+					"content": "This is answer 1"
+				},
+				{
+					"id": 0,
+					"content": "This is answer 2"
+				},
+				{
+					"id": 0,
+					"content": "This is answer 3"
+				}
+			],
+			"content": "This is question 3",
+			"correctAnswers": [
+				{
+					"id": 0,
+					"content": "This is answer 0"
+				}
+			],
+			"multiChoice": true
+		}
+	]
+}
