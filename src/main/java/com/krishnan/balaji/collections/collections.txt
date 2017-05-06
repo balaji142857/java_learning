@@ -1,0 +1,38 @@
+	
+									Collection														
+		 |------------------------------|----------------------------|					 
+		 |								|							 |
+		 |								|							 |
+		Set							   List						   Queue.							Map
+		 |															 |								 |			 
+		 |															 |								 |							 
+	 SortedSet 												--------------------			------------------
+	 	 |													|	  			   |			|				 |		
+	 	 |												    |				   |			|				 |
+	NavigableSet 										BlockingQueue		 DeQueue	SortedMap	  ConcurrentMap
+															|				   |			|				 |
+															|				   |			|				 |
+												------------------------X--------		NavigableMap ConcurrentNavigableMap
+												|					    | 						
+										TransferQueue			BlockingDequeue		  
+				
+
+	Collection: AbstractCollection, AbstractSet, AbstractList, AbstractQueue
+	
+	Set: EnumSet, HashSet -> LinkedHashSet, CopyOnWriteArraySet
+	NavigableSet: TreeSet, ConcurrentSkipListSet
+	
+	
+	List: LinkedList, ArrayList, CopyOnWriteArrayList (AttributeList, RoleList, RoleUnresolvedList #jmxRelated)
+	
+	
+	Queue: LinkedList, PriorityQueue, SynchronousQueue
+	BlockingQueue: ArrayBlockingQueue, DelayQueue, LinkedBlockingDeque, LinkedBlockingQueue, LinkedTransferQueue, PriorityBlockingQueue, SynchronousQueue
+	TransferQueue: LinkedTransferQueue 
+	BlockingDeQueue: LinkedBlockingDeQueue
+
+	
+	Map: EnumMap, HashMap -> LinkedHashMap, IdentityHashMap
+	NavigableMap: TreeMap
+	ConcurrentMap: ConcurrentHashMap
+	ConcurrentNavigableMap: ConcurrentSkipListMap
