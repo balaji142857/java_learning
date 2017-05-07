@@ -16,9 +16,7 @@ public class StringUnloader implements Callable<Void> {
 	@Override
 	public Void call() throws Exception {
 		while (true && !stop) {
-			long sleepTime = (long) (Math.random()*10);
-			System.out.println("unloader sleeping for "+sleepTime+" seconds");
-			TimeUnit.SECONDS.sleep(sleepTime);
+			TimeUnit.SECONDS.sleep(2);
 			int value = (int) (Math.random()*100);
 			System.out.println("unloader exchanging "+ value);
 			value = ex.exchange(value);

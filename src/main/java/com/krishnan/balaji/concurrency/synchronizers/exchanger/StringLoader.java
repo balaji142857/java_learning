@@ -16,9 +16,8 @@ public class StringLoader implements Callable<Void> {
 	@Override
 	public Void call() throws Exception {
 		while (true && !stop) {
-			long sleepTime = (long) (Math.random()*10);
-			System.out.println("loader sleeping for "+sleepTime+" seconds");
-			TimeUnit.SECONDS.sleep(sleepTime);
+			//sleep for a few seconds so output does not get generated very fast
+			TimeUnit.SECONDS.sleep(2);
 			int value = (int) (Math.random()*100);
 			System.out.println("loader exchanging "+ value);
 			value = ex.exchange(value);
