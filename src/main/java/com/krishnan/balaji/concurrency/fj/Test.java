@@ -17,6 +17,7 @@ public class Test extends RecursiveTask<Long> {
 		high = hi;
 	}
 
+	@Override
 	protected Long compute() {
 		if (high - low <= SEQUENTIAL_THRESHOLD) {
 			long sum = 0;
@@ -36,7 +37,12 @@ public class Test extends RecursiveTask<Long> {
 
 	
 	public static void main(String[] args) {
-		
+		int limit = 25000;
+		int[] arr = new int[limit];
+		for(int i =0; i<limit;i++){
+			arr[i]=(int) (Math.random()*limit);
+		}
+		System.out.println("sum is "+sumArray(arr));
 	}
 	static long sumArray(int[] array) {
 		return ForkJoinPool.commonPool().invoke(new Test(array, 0, array.length));
