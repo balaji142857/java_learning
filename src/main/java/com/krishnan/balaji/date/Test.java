@@ -35,6 +35,10 @@ public class Test {
 		 * be used to create legacy java.util.Date objects.
 		 */
 
+		
+		System.out.println(LocalDateTime.now(Clock.systemDefaultZone())); 
+		System.out.println(Instant.now(Clock.systemDefaultZone()));
+		
 		Clock clock = Clock.systemDefaultZone();
 		long millis = clock.millis();
 

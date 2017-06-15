@@ -26,8 +26,9 @@
 	List: LinkedList, ArrayList, CopyOnWriteArrayList (AttributeList, RoleList, RoleUnresolvedList #jmxRelated)
 	
 	
-	Queue: LinkedList, PriorityQueue, SynchronousQueue
-	BlockingQueue: ArrayBlockingQueue, DelayQueue, LinkedBlockingDeque, LinkedBlockingQueue, LinkedTransferQueue, PriorityBlockingQueue, SynchronousQueue
+	Queue: LinkedList, PriorityQueue
+	DeQueue: 	ArrayDequeue,ConcurrentLinkedDequeu,LinkedBlockingQueue,Linkedlist
+	BlockingQueue: ArrayBlockingQueue, DelayQueue, LinkedBlockingQueue, LinkedTransferQueue, PriorityBlockingQueue, SynchronousQueue
 	TransferQueue: LinkedTransferQueue 
 	BlockingDeQueue: LinkedBlockingDeQueue
 
